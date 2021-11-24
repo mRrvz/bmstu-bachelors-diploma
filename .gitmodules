@@ -1,0 +1,3 @@
+[submodule "src/linux"]
+	path = src/linux
+	url = https://github.com/mRrvz/linux
