@@ -63,3 +63,5 @@ dkms.conf
 *.synctex.gz
 *.log
 *.toc
+
+pygments/
