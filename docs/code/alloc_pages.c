@@ -1,0 +1,1 @@
+struct page *alloc_pages(gfp_t gfp_mask, unsigned int order);
