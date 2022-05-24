@@ -36,8 +36,8 @@ def main():
         compress.append(el[3])
 
     plt.plot(compress, entropy, '^g', markersize=0.3)
-    plt.ylabel('Энтропия')
-    plt.xlabel('Коэффициент сжатия')
+    plt.ylabel('Entropy')
+    plt.xlabel('Compression ratio')
     plt.show()
 
 
