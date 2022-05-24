@@ -22,4 +22,5 @@ struct page {
 #if defined(WANT_PAGE_VIRTUAL)
 	void *virtual;
 #endif
+    int _last_cpupid;
 } _struct_page_alignment;
