@@ -1,0 +1,27 @@
+% !TEX program = xelatex
+\include{preambule}
+
+% ---------------------- Документ ----------------------
+\begin{document}
+	\include{00-title}
+
+	\normalsize
+	\setcounter{page}{3}
+
+	\pagebreak
+
+	\include{01-abstract}
+
+	\renewcommand{\contentsname}{\normalsize\bfseries\centering СОДЕРЖАНИЕ}
+	\small
+	\tableofcontents
+	\normalsize
+
+	\pagebreak
+	
+	\include{03-intro}
+	\include{30-technology}
+	\include{40-research}
+	\include{50-conclusion}
+	\include{60-bibliography}
+\end{document}
